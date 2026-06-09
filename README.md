@@ -14,7 +14,7 @@ For my first use case, I built a portfolio chatbot that answers questions about 
 For my second use case, I built a personal AI knowledge workflow that captures links I save, categorizes them, and resurfaces relevant knowledge when I start building.
 
 - Use Case 2 README: [use-case-2/README.md](use-case-2/README.md)
-- Working project repo: [https://github.com/DanicaMartins/AI-Knowledge-Inbox]
+- Working project repo: https://github.com/DanicaMartins/AI-Knowledge-Inbox
 
 ## Show-and-Tell Demo
 
