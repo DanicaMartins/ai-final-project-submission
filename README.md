@@ -20,4 +20,4 @@ For my second use case, I built a personal AI knowledge workflow that captures l
 
 The show-and-tell demo is for Use Case 1: Portfolio Chatbot. It highlights how the chatbot answers useful portfolio questions while refusing or redirecting sensitive questions that should come to me directly.
 
-- Demo video: https://app.vidcast.io/share/22de4294-ae2d-4e46-b857-73bfa4399704
+- Demo video: https://drive.google.com/file/d/1bnhotTSeyjnVocwHWy7Gbux8XNgD2UzZ/view?usp=sharing
