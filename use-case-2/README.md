@@ -3,7 +3,7 @@
 
 ## Project Link
 
-- Working project repo: [Add GitHub repo link here]
+- Working project repo: https://github.com/DanicaMartins/AI-Knowledge-Inbox
 
 ## Overview
 
@@ -91,6 +91,19 @@ The `/surface` command worked inside Cowork, but not inside a regular Claude cha
 A few things also broke or behaved unexpectedly. When I tested a URL with minimal content, Claude produced a shallow extraction that described the page more than the actual insight. I realized the intake skill needs stronger instructions for sparse pages, marketing pages, short posts, and other formats where the useful information is not obvious. I also noticed that Claude sometimes added extra commentary after the one-line confirmation, even though the master instructions told it not to. The rule existed, but it needed to be stricter.
 
 Where I still own the work is in deciding whether a surfaced suggestion is actually worth using. Claude can retrieve relevant entries, but it does not fully know what I have already tried, what constraints I am under, or what direction feels right. The final judgment still belongs to me.
+
+### Project folders
+
+When I want to start working on a specific idea, I tell Cowork to create a new project. For example: "Create a new project called home-app, I want to brainstorm a home organization app." Cowork creates a subfolder inside AI-Knowledge-Inbox, reads the global KNOWLEDGE-BASE.md, surfaces anything relevant, and saves it into a context.md file for that project. Every subsequent conversation about that idea lives in that folder. The knowledge base stays global — the project folder is where idea-specific context accumulates.
+
+```
+AI-Knowledge-Inbox/
+└── projects/
+    ├── home-app/
+    │   └── context.md    ← surfaced knowledge + running build context
+    └── portfolio-chatbot/
+        └── context.md
+```
 
 ## Strategic Reflection: The Five Capabilities
 
