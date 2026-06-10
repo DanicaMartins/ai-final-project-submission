@@ -48,13 +48,13 @@ The main files are:
 
 | File | Purpose |
 |---|---|
-| `MASTER-INSTRUCTIONS.md` | Defines the overall behavior of the system and how Claude should respond during the workflow |
-| `SAFETY-INSTRUCTIONS.md` | Handles safety rules, prompt injection risks, and when the system should pause |
+| `MASTER-INSTRUCTIONS.skill` | Defines the overall behavior of the system and how Claude should respond during the workflow |
+| `SAFETY-INSTRUCTIONS.skill` | Handles safety rules, prompt injection risks, and when the system should pause |
 | `KNOWLEDGE-BASE.md` | Stores the structured entries from saved links |
-| `intake.md` | Reads a pasted URL and extracts what it is, what it does, and when it is useful |
-| `categorize.md` | Assigns the entry to an existing or new category |
-| `update-knowledge-base.md` | Appends the entry to the correct section of the knowledge base |
-| `surface.md` | Finds and returns the most relevant saved entries for a current build task |
+| `intake.skill` | Reads a pasted URL and extracts what it is, what it does, and when it is useful |
+| `categorize.skill` | Assigns the entry to an existing or new category |
+| `update-knowledge-base.skill` | Appends the entry to the correct section of the knowledge base |
+| `surface.skill` | Finds and returns the most relevant saved entries for a current build task |
 
 The system uses Dispatch as the phone-to-desktop bridge, Claude Cowork for local file access, and markdown as the storage format. I chose markdown because it is simple, readable, and easy to edit manually if something goes wrong.
 
